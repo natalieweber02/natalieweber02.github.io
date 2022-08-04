@@ -7,7 +7,7 @@
 h1 {text-align: center;
     color:var(--rosa);}
 body{
-    background-color: rgba(220, 202, 181, 0.914);
+    background-color: #f4e7ec;
 }
 #erstesbild {
     float:right;
