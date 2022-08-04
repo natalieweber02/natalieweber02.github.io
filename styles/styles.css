@@ -1,0 +1,142 @@
+:root{
+    --rosa:rgb(203, 137, 167);
+    --weiss:white;
+    --schatten:rgb(112, 100, 112);
+}
+
+h1 {text-align: center;
+    color:var(--rosa);}
+body{
+    background-color: rgba(220, 202, 181, 0.914);
+}
+#erstesbild {
+    float:right;
+    margin-top: -6%;
+}
+header {
+    
+    color: white;
+}
+.container {
+    margin-block-start:20%;
+    margin-top: 6%;
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    overflow:hidden;
+    }
+    
+    .centered {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: inherit;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: rgba(92, 61, 31, 0.827);
+
+    }
+
+    footer {
+        color:rgb(234, 156, 77);
+    }
+
+    .mainNav {
+        height: 3em;
+        width: 14em;
+        margin-left: 3em;
+        background: var(--rosa);
+        padding-top: 0.6em;
+        padding-left: 1em;
+        margin-top: 1em;
+        box-shadow: 0.3em 0.3em var(--schatten);
+        overflow: hidden;
+        cursor:grab;
+      }
+
+      #bilder {
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(19em, 2fr));
+        gap: 5em;
+        margin-left:-5%;
+      }
+      #bilder > figcaption {
+          grid-column: 1 / -1;
+        }
+        figcaption{
+          text-align: center;
+          font-size: 1.2em;
+          letter-spacing: 0.35em;
+        }
+  
+ 
+ .telefon {
+    margin-left: 25%;
+    color:var(--rosa);
+ }
+ .mail{
+    margin-top: -2.3%;
+    margin-right:0%;
+    color:var(--rosa);
+ }
+ .zeiten{
+    margin-top: -2.3%;
+    margin-left: 50%;
+    color:var(--rosa);
+ }
+ .ort {
+    margin-left: 75%;
+    margin-top: -2.3%;
+    color:var(--rosa);
+ }
+ .einleitung{
+    height: 4.9em;
+    width:40em;
+    margin-left:9em;
+    background:var(--weiss);
+    padding-top: 8px;
+    padding-left: 5px;
+    margin-top: 60px;
+    box-shadow: 4px 6px rgb(112, 100, 112);
+    overflow: hidden;
+    font: 22px Regular;
+    color: var(--rosa);
+    padding: 12px 29px 0px 25px;
+    }
+
+    .profil{
+       margin-left: 5.5%;
+    }
+    .profiltext{
+        float:right;
+        margin-right: 8%;
+        height: 7.4em;
+    width:42em;
+    background:var(--weiss);
+    padding-top: 7px;
+    padding-left: 5px;
+    margin-top: 60px;
+    box-shadow: 4px 6px rgb(112, 100, 112);
+    overflow: hidden;
+    font: 22px Regular;
+    color: var(--rosa);
+    padding:15px 15px 0px 15px;
+    }
+ 
+      a{
+        color:var(--weiss)
+      }
+    .pdf {
+        margin-left: 40%;
+        height: 3em;
+        width: 14em;
+        background: pink;
+        padding-top: 0.4em;
+        padding-left: 0.3em;
+        margin-top: 0.8em;
+        box-shadow: 0.3em 0.3em var(--schatten);
+        overflow: hidden;
+        cursor:grab;
+    }
