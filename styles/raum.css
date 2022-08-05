@@ -47,3 +47,26 @@ body{
         box-shadow: 0.3em 0.3em var(--schatten);
         overflow: hidden;
     cursor:grab; }
+ .orientierung {
+            height: 5em;
+            width: 30em;
+            background: var(--rosa);
+            padding-top: 0.4em;
+            padding-left: 0.3em;
+            margin-top: 0.8em;
+            margin-left: 25%;
+            box-shadow: 0.3em 0.3em var(--schatten);
+            overflow: hidden;
+            cursor:grab; 
+            font-size: large;
+            font-weight: 500;
+font-size: large;
+font-weight: 500;}  
+
+    ul{
+        background:rgb(238, 238, 241);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 7.5em;
+            width: 29em;
+        margin-left:25%;}        
