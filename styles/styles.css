@@ -2,6 +2,7 @@
     --rosa:rgb(203, 137, 167);
     --weiss:white;
     --schatten:rgb(112, 100, 112);
+    --dunkelrosa(92, 61, 31, 0.827);
 }
 
 h1 {text-align: center;
@@ -35,7 +36,7 @@ header {
     background: inherit;
     background-attachment: fixed;
     overflow: hidden;
-    color: rgba(92, 61, 31, 0.827);
+    color: var(--rosa);
 
     }
 
