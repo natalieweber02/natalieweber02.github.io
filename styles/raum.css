@@ -25,6 +25,9 @@ body{
     p {
         color:black;
     }
+ h2 {
+        text-align: center;
+    }
     .mainNav{
         height: 3em;
         width: 18em;
