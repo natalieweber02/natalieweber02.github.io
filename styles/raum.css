@@ -5,7 +5,7 @@
     --schatten:rgb(112, 100, 112);
 }
 body{
-    background-color: rgba(220, 202, 181, 0.914);
+    background-color: #f4e7ec;
 }
 #bilder {
     display:grid;
